@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+body{
+    color: white;
+}
+
+#Header{
+    background-image: url(Images/computer.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color:mediumblue;
+    transition: 0.5s;
+}
+
+nav li{
+    display: inline;
+    margin: 25px;
+    font-size: 20px;
+}
+
+nav{
+    height: 75px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 30px;
+}
+#know{
+    color:mediumblue;
+}
+#blank{
+    height:75px;
+    width:100%;
+}
+
+#resume a{
+    text-decoration: none;
+    color:white;
+}
+#resume{
+    text-transform: uppercase;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: 400;
+    background-color: blue;
+    border: none;
+    padding: 5px 15px;
+    transition: 0.5s;
+
+}
+
+#resume:hover{
+    letter-spacing: 0.1vh;
+    padding: 10px 30px;
+}
+
+/* about */
+
+#about{
+    background-color: rgb(1, 1, 37);
+    padding: 20px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col1{
+    flex-basis: 35%;
+}
+
+.col1 img{
+    width: 100%;
+}
+
+.col2{
+    flex-basis: 60%;
+}
+
+.col2 p{
+    padding-top: 20px;
+    color: gray;
+}
+
+.tabs-titles{
+    display: flex;
+}
+
+.tabs-links{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-github{
+    background: white;
+    color: black;
+  }
+  
+
+  #social{
+    display: block;
+    position: fixed;
+    top: 40%;
+    left: 92%;
+  }
+.fa {
+    display: relative;
+
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
